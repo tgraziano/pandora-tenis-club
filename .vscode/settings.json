@@ -1,0 +1,8 @@
+{
+  "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always",
+    "source.organizeImports": "always"
+  },
+  "editor.formatOnSave": true,
+}
