@@ -40,12 +40,12 @@ Correr el apache de xampp e ingresar a <a href="http://localhost">http://localho
 
 ### Cabecera
 
-<img src="/docs/header.png" alt="Header">
+<img src="./docs/header.png" alt="Header">
 
 ### Footer
 
-<img src="/docs/footer.png" alt="Footer">
+<img src="./docs/footer-copyright.png" alt="Footer">
 
 ### Home
 
-<img src="/docs/home.png" alt="Home">
+<img src="./docs/home.png" alt="Home">
