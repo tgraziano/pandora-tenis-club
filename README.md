@@ -38,6 +38,14 @@ Correr el apache de xampp e ingresar a <a href="http://localhost">http://localho
 ## Diseño de la web
 [Figma](https://www.figma.com/design/cajz06OLDe2FE3qQKLjtKu/Club-Pandora?node-id=0-1&p=f)
 
+### Cabecera
+
+<img src="./docs/Cabecera.png" alt="Header">
+
+### Footer
+
+<img src="./docs/Footer.png" alt="Footer">
+
 ### Home
 
-<img src="./docs/home.png" alt="Home">
+<img src="./docs/Home.png" alt="Home">
