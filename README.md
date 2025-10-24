@@ -32,3 +32,12 @@ DocumentRoot "C:/Users/Tomas/OneDrive/Escritorio/pandora-tenis/app"
 
 
 Correr el apache de xampp e ingresar a <a href="http://localhost">http://localhost</a> y debe ser el contenido de index.php
+
+
+
+## Diseño de la web
+[Figma](https://www.figma.com/design/cajz06OLDe2FE3qQKLjtKu/Club-Pandora?node-id=0-1&p=f)
+
+### Home
+
+<img src="./docs/home.jpg" alt="Home">
