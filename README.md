@@ -26,8 +26,8 @@ DocumentRoot "C:/xampp/htdocs"
 Y cambielas por la locación de este proyecto y el folder app, por ejemplo:
 
 ```
-DocumentRoot "C:/Users/Tomas/OneDrive/Escritorio/pandora-tenis/app"
-<Directory "C:/Users/Tomas/OneDrive/Escritorio/pandora-tenis/app">
+DocumentRoot "C:/Users/Tomas/OneDrive/Escritorio/pandora-tenis-club/app"
+<Directory "C:/Users/Tomas/OneDrive/Escritorio/pandora-tenis-club/app">
 ```
 
 
