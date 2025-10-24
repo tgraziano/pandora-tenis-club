@@ -1,4 +1,4 @@
-# Proyecto Pandora Tenis club
+# Proyecto Club Pandora
 
 ## Desarrollado por:
 - Tomás Graziano
