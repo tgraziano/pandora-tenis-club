@@ -40,4 +40,4 @@ Correr el apache de xampp e ingresar a <a href="http://localhost">http://localho
 
 ### Home
 
-<img src="./docs/home.jpg" alt="Home">
+<img src="./docs/home.png" alt="Home">
