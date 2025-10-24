@@ -31,7 +31,7 @@ DocumentRoot "C:/Users/Tomas/OneDrive/Escritorio/pandora-tenis/app"
 ```
 
 
-Correr el apache de xampp e ingresar a <a href="http://localhost">http://localhost</a> y debe ser el contenido de index.php
+Correr el apache de xampp e ingresar a <a href="http://localhost">http://localhost</a> y debe ver el contenido de index.php
 
 
 
@@ -49,3 +49,7 @@ Correr el apache de xampp e ingresar a <a href="http://localhost">http://localho
 ### Home
 
 <img src="./docs/home.png" alt="Home">
+
+### Contacto
+
+<img src="./docs/contacto.png" alt="Contacto">
