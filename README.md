@@ -50,6 +50,14 @@ Correr el apache de xampp e ingresar a <a href="http://localhost">http://localho
 
 <img src="./docs/home.png" alt="Home">
 
+### Sobre nosotros
+
+<img src="./docs/nosotros.png" alt="Nosotros">
+
+### Reservas
+
+<img src="./docs/reservas.png" alt="Reservas">
+
 ### Contacto
 
 <img src="./docs/contacto.png" alt="Contacto">
