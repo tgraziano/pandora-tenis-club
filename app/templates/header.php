@@ -1,7 +1,7 @@
 <?php
 
 $currentPath = [
-    "/" => "Inicio",
+    "/?view=home.php" => "Inicio",
     "/?view=reserva.php" => "Reserva",
     "/?view=nosotros.php" => "Nosotros",
     "/?view=contacto.php" => "Contacto"
@@ -23,9 +23,11 @@ $linkStyle = "font-semibold text-lg opacity-80 hover:opacity-100 transition-opac
 
 <script>
     const links = document.querySelectorAll('#header-nav a');
+    const searchParams = new URLSearchParams(window.location.search);
+    const view = searchParams.get("view") ?? "home.php";
     links.forEach(link => {
         const path = link.getAttribute("href");
-        if (path === window.location.pathname) {
+        if (path.includes(view) || path.includes("home.php") && !view.length) {
             link.classList.add("text-primary");
             link.classList.add("opacity-100");
             link.classList.add("border-b-4");

@@ -16,9 +16,10 @@ $view = $_GET['view'] ?? 'home.php';
   <link rel="icon" href="/favicon.svg">
   <link rel="stylesheet" href="/assets/fonts/poppins/stylesheet.css">
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="/assets/global.css">
 </head>
 
-<body class="font-poppins flex flex-col min-h-screen h-screen w-full">
+<body class="font-poppins flex flex-col min-h-screen w-full">
   <?php include 'templates/header.php'; ?>
   <?php include 'views/' . $view; ?>
   <?php include 'templates/footer.php'; ?>
