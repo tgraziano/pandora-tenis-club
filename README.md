@@ -56,7 +56,7 @@ Correr el apache de xampp e ingresar a <a href="http://localhost">http://localho
 
 ### Reservas
 
-<img src="./docs/reservas.png" alt="Reservas">
+<img src="./docs/reserva.png" alt="Reservas">
 
 ### Contacto
 
