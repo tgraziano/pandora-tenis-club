@@ -8,6 +8,7 @@
             </p>
         </article>
     </section>
+
     <section class="flex flex-wrap justify-center gap-8 px-[190px] py-4 h-fit w-full">
         <div class="bg-white flex flex-col items-center gap-2 shadow-[4px_4px_25px_rgba(0,0,0,0.5)] rounded-xl py-4 px-6 w-64 h-64">
             <img src="/assets/svgs/cancha.svg" class="w-[60px] h-[60px]" alt="Cancha de tenis" width="60" height="60" loading="lazy" decoding="async" />
@@ -33,5 +34,13 @@
                 Reserva tu cancha de forma rápida y sencilla a través de nuestro sistema online. Disponible 24/7.
             </p>
         </div>
+    </section>
+
+    <section class="flex flex-col gap-4 px-[190px] py-4 h-fit w-full">
+        <div class="flex flex-col items-center gap-3.5 py-[24px]">
+            <h2 class="font-bold text-4xl">Nuestra tienda</h2>
+            <p class="font-medium text-xl text-pretty text-gray-700">Equípate con lo mejor para triunfar en la cancha.</p>
+        </div>
+        <?php include 'templates/list-products.php'; ?>
     </section>
 </main>
