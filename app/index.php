@@ -1,3 +1,7 @@
+<?php
+$view = $_GET['view'] ?? 'home.php';
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -10,11 +14,21 @@
   <meta name="author" content="Tomas Graziano, Juan Cruz">
   <meta name="robots" content="index, follow">
   <link rel="icon" href="/favicon.svg">
-  <link rel="stylesheet" href="/assets/css/global.css">
+  <link rel="stylesheet" href="/assets/fonts/poppins/stylesheet.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body>
-  <h1 class="text-2xl font-bold font-poppins text-black">Club Pandora</h1>
+<body class="font-poppins flex flex-col min-h-screen h-screen w-full">
+  <?php include 'templates/header.php'; ?>
+  <?php include 'views/' . $view; ?>
+  <?php include 'templates/footer.php'; ?>
+  <style type="text/tailwindcss">
+    @theme {
+      --font-poppins: "Poppins", sans-serif;
+      --color-primary: #1173d4;
+      --color-secondary: #006400;
+    }
+  </style>
 </body>
 
 </html>
