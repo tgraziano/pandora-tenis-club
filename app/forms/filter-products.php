@@ -24,7 +24,7 @@ $name = $_GET['name'] ?? "";
     </div>
     <div class="flex items-center justify-center w-fit gap-2">
         <input type="text" name="name" value="<?= $name ?>" minlength="3" maxlength="25" placeholder="Ingrese un nombre" autocomplete="off" class="placeholder:text-gray-500 placeholder:font-medium outline outline-gray-800 focus:outline-2 focus:outline-black text-lg py-1.5 px-4 rounded-sm w-[250px]" />
-        <button type="submit" class="bg-primary text-white cursor-pointer py-2 px-6 text-lg rounded-sm">Buscar</button>
+        <button type="submit" class="bg-primary text-white cursor-pointer py-2 px-6 text-lg rounded-sm will-change-transform duration-200 transition-all hover:scale-105">Buscar</button>
     </div>
 </form>
 
