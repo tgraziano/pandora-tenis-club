@@ -10,22 +10,30 @@ class Database
     public function connect()
     {
         try {
-            $this->connection = new PDO(
+            $conexion = new PDO(
                 "mysql:host=$this->host;dbname=$this->database",
                 $this->user,
                 $this->password
             );
-            $this->connection->setAttribute(
+            $conexion->setAttribute(
                 PDO::ATTR_ERRMODE,
                 PDO::ERRMODE_EXCEPTION
             );
+            $this->connection = $conexion;
         } catch (PDOException $e) {
-            throw new Exception("Connection failed: " . $e->getMessage());
+            throw new Exception("Error al intentar conectar la base de datos: " . $e->getMessage());
         }
     }
 
     public function disconnect()
     {
-        $this->connection = null;
+        if ($this->connection) {
+            $this->connection = null;
+        }
+    }
+
+    public function query($query)
+    {
+        return $this->connection->query($query);
     }
 }

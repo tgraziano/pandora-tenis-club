@@ -36,7 +36,7 @@
         </div>
     </section>
 
-    <section class="flex flex-col gap-4 px-[190px] py-4 h-fit w-full">
+    <section id="store-products" class="flex flex-col gap-4 px-[190px] py-4 h-fit w-full">
         <div class="flex flex-col items-center gap-3.5 py-[24px]">
             <h2 class="font-bold text-4xl">Nuestra tienda</h2>
             <p class="font-medium text-xl text-pretty text-gray-700">Equípate con lo mejor para triunfar en la cancha.</p>
@@ -44,3 +44,9 @@
         <?php include 'templates/list-products.php'; ?>
     </section>
 </main>
+
+<script>
+    if (window.location.search.includes("page")) {
+        document.getElementById("store-products").scrollIntoView();
+    }
+</script>

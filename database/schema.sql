@@ -3,6 +3,7 @@ USE pandora_tenis;
 
 CREATE TABLE IF NOT EXISTS products (
     id INT PRIMARY KEY AUTO_INCREMENT,
+    category VARCHAR(255) NOT NULL,
     name VARCHAR(255) NOT NULL,
     price DECIMAL(10, 2) NOT NULL,
     discount INT DEFAULT 0,
