@@ -19,7 +19,7 @@ $view = $_GET['view'] ?? 'home.php';
   <link rel="stylesheet" href="/assets/global.css">
 </head>
 
-<body class="font-poppins flex flex-col min-h-screen w-full">
+<body class="bg-gray-100 font-poppins flex flex-col min-h-screen w-full">
   <?php include 'templates/header.php'; ?>
   <?php include 'views/' . $view; ?>
   <?php include 'templates/footer.php'; ?>

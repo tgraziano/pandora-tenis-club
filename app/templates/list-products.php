@@ -42,11 +42,13 @@ $totalPage = $response["totalPages"];
             <?php endforeach ?>
         </ul>
     <?php endif ?>
-    <ul class="flex items-center justify-center gap-2 w-full">
-        <?php for ($i = 1; $i <= $totalPage; $i++) : ?>
-            <li>
-                <a href="/?view=home.php&page=<?= $i ?><?= $name ? '&name=' . $name : '' ?><?= $category ? '&category=' . $category : '' ?>" class="flex items-center justify-center p-2 aspect-square h-10 rounded-md outline-2 outline-primary transition-all duration-200 will-change-transform <?= $i == $page ? 'bg-primary text-white' : 'bg-white text-primary hover:scale-105' ?>"><?= $i ?></a>
-            </li>
-        <?php endfor ?>
-    </ul>
+    <?php if ($totalPage > 1) : ?>
+        <ul class="flex items-center justify-center gap-2 w-full">
+            <?php for ($i = 1; $i <= $totalPage; $i++) : ?>
+                <li>
+                    <a href="/?view=home.php&page=<?= $i ?><?= $name ? '&name=' . $name : '' ?><?= $category ? '&category=' . $category : '' ?>" class="flex items-center justify-center p-2 aspect-square h-10 rounded-md outline-2 outline-primary transition-all duration-200 will-change-transform <?= $i == $page ? 'bg-primary text-white' : 'bg-white text-primary hover:scale-105' ?>"><?= $i ?></a>
+                </li>
+            <?php endfor ?>
+        </ul>
+    <?php endif ?>
 </div>
