@@ -1,4 +1,4 @@
-<main class="flex flex-col h-full w-full">
+<main class="flex flex-col flex-1 h-full w-full">
     <section class="bg-[url('/assets/imgs/background.png')] relative w-full aspect-[1900/600] bg-cover bg-center">
         <div class="absolute inset-0 bg-black/50"></div>
         <article class="flex flex-col gap-4 h-full w-full justify-center items-center relative px-[190px]">
