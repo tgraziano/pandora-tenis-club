@@ -13,10 +13,10 @@ $view = $_GET['view'] ?? 'home.php';
   <meta name="keywords" content="tenis, club, pandora, padel, argentina, buenos aires, caba, ciudad autonoma de buenos aires, club de tenis, club de padel, club de tenis caba, club de padel caba">
   <meta name="author" content="Tomas Graziano, Juan Cruz">
   <meta name="robots" content="index, follow">
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-  <link rel="stylesheet" href="/assets/fonts/poppins/stylesheet.css">
+  <link rel="icon" type="image/svg+xml" href="/app/favicon.svg">
+  <link rel="stylesheet" href="/app/assets/fonts/poppins/stylesheet.css">
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  <link rel="stylesheet" href="/assets/global.css">
+  <link rel="stylesheet" href="/app/assets/global.css">
 </head>
 
 <body class="bg-gray-100 font-poppins flex flex-col min-h-screen w-full">

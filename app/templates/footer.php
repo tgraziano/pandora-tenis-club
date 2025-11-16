@@ -2,7 +2,7 @@
     <div class="flex gap-2 justify-between py-8 w-full">
         <div class="flex flex-col gap-4 w-78">
             <div class="flex items-center gap-2">
-                <img src="/assets/imgs/logo.png" width="50" height="59" alt="Pandora Icon">
+                <img src="/app/assets/imgs/logo.png" width="50" height="59" alt="Pandora Icon">
                 <p class="font-semibold text-primary text-2xl">Club Pandora</p>
             </div>
             <p class="text-gray-600 font-regular">
@@ -42,13 +42,13 @@
             <p class="font-bold text-lg">Síguenos</p>
             <ul class="flex items-center gap-2 text-md text-gray-600">
                 <li>
-                    <img src="/assets/svgs/facebook.svg" loading="lazy" decoding="async" width="28" height="28" alt="Facebook">
+                    <img src="/app/assets/svgs/facebook.svg" loading="lazy" decoding="async" width="28" height="28" alt="Facebook">
                 </li>
                 <li>
-                    <img src="/assets/svgs/instagram.svg" loading="lazy" decoding="async" width="30" height="30" alt="Instagram">
+                    <img src="/app/assets/svgs/instagram.svg" loading="lazy" decoding="async" width="30" height="30" alt="Instagram">
                 </li>
                 <li>
-                    <img src="/assets/svgs/x-social.svg" loading="lazy" decoding="async" width="24" height="24" alt="Twitter">
+                    <img src="/app/assets/svgs/x-social.svg" loading="lazy" decoding="async" width="24" height="24" alt="Twitter">
                 </li>
             </ul>
         </div>

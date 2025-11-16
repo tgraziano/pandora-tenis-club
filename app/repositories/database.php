@@ -37,3 +37,5 @@ class Database
         return $this->connection->query($query);
     }
 }
+
+?>

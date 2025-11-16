@@ -8,7 +8,7 @@
     </div>
     <article class="flex gap-6 mt-4 w-full">
       <div class="flex rounded-xs aspect-[410/332]">
-        <img src="/assets/imgs/club.jpg" alt="Club" class="object-contain" width="410" height="332">
+        <img src="/app/assets/imgs/club.jpg" alt="Club" class="object-contain" width="410" height="332">
       </div>
       <div class="flex flex-col gap-6 h-full w-full">
         <p class="w-full h-fit text-pretty text-xl font-regular text-primary">
@@ -34,7 +34,7 @@
     </div>
     <article class="flex gap-6 mt-4 w-full">
       <div class="flex rounded-xs aspect-[410/231]">
-        <img src="/assets/imgs/instalaciones.png" alt="Instalaciones" class="object-contain" width="410" height="231">
+        <img src="/app/assets/imgs/instalaciones.png" alt="Instalaciones" class="object-contain" width="410" height="231">
       </div>
       <div class="flex flex-col gap-6 h-full w-full">
         <p class="w-full h-fit text-pretty text-xl font-regular text-primary">

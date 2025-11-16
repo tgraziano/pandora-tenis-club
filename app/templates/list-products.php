@@ -34,7 +34,7 @@ $totalPage = $response["totalPages"];
                             $ <?= formatPrice($product['price']) ?>
                         </p>
                         <button type="button" class="bg-secondary cursor-pointer text-white font-semibold px-4 py-2 text-md rounded-md flex items-center gap-2 transition-all duration-200 will-change-transform hover:scale-105">
-                            <img src="/assets/svgs/cart-add.svg" alt="Añadir Icono" width="24" height="24" loading="lazy" decoding="async" />
+                            <img src="/app/assets/svgs/cart-add.svg" alt="Añadir Icono" width="24" height="24" loading="lazy" decoding="async" />
                             Añadir
                         </button>
                     </div>
