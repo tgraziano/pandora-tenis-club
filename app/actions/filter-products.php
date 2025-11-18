@@ -12,3 +12,5 @@ if ($name) {
 }
 header("Location: /$searchParams");
 exit();
+
+?>

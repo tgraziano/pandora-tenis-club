@@ -1,7 +1,7 @@
 <main class="flex flex-col flex-1 h-full w-full">
     <section class="bg-[url('/app/assets/imgs/background.png')] relative w-full aspect-[1900/600] bg-cover bg-center">
         <div class="absolute inset-0 bg-black/50"></div>
-        <article class="flex flex-col gap-4 h-full w-full justify-center items-center relative px-[190px]">
+        <article class="flex flex-col gap-4 h-full w-full justify-center items-center relative px-[20px] md:px-[40px] lg:px-[190px]">
             <h1 class="text-4xl text-white font-black text-shadow-[2px_2px_4px_#000000]">Bienvenidos a Club Pandora</h1>
             <p class="text-2xl text-center text-white text-shadow-[2px_2px_2px_#000000]">
                 Tu lugar para disfrutar del tenis y pádel al <br /> máximo nivel.
@@ -9,7 +9,7 @@
         </article>
     </section>
 
-    <section class="flex flex-wrap justify-center gap-8 px-[190px] py-4 h-fit w-full">
+    <section class="flex flex-wrap justify-center gap-8 px-[20px] md:px-[40px] lg:px-[190px] py-4 h-fit w-full">
         <div class="bg-white flex flex-col items-center gap-2 shadow-[4px_4px_25px_rgba(0,0,0,0.5)] rounded-xl py-4 px-6 w-64 h-64">
             <img src="/app/assets/svgs/cancha.svg" class="w-[60px] h-[60px]" alt="Cancha de tenis" width="60" height="60" loading="lazy" decoding="async" />
             <p class="text-primary font-semibold text-xl text-center">Nuestras canchas</p>

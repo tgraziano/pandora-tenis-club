@@ -1,4 +1,4 @@
-<main class="flex flex-col flex-1 px-[190px] py-14 h-full w-full">
+<main class="flex flex-col flex-1 px-[20px] md:px-[40px] lg:px-[190px] py-14 h-full w-full">
   <section class="flex flex-col w-full">
     <div class="flex items-center gap-6">
       <p class="text-5xl text-primary font-black text-nowrap uppercase">

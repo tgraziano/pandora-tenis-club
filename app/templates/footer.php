@@ -1,5 +1,5 @@
-<footer class="bg-white flex flex-col items-center gap-2 h-fit px-[190px] w-full">
-    <div class="flex gap-2 justify-between py-8 w-full">
+<footer class="bg-white flex flex-col items-center gap-2 h-fit px-[20px] md:px-[40px] lg:px-[190px] w-full">
+    <div class="flex flex-wrap gap-2 justify-between py-8 w-full">
         <div class="flex flex-col gap-4 w-78">
             <div class="flex items-center gap-2">
                 <img src="/app/assets/imgs/logo.png" width="50" height="59" alt="Pandora Icon">
