@@ -1,12 +1,12 @@
 <main class="flex flex-col flex-1 px-[20px] md:px-[40px] lg:px-[190px] py-14 h-full w-full">
   <section class="flex flex-col w-full">
     <div class="flex items-center gap-6">
-      <p class="text-5xl text-primary font-black text-nowrap uppercase">
+      <p class="text-3xl md:text-5xl text-primary font-black text-nowrap uppercase">
         El club
       </p>
       <span class="bg-primary h-1 rounded-full w-full"></span>
     </div>
-    <article class="flex gap-6 mt-4 w-full">
+    <article class="flex flex-col md:flex-row gap-6 mt-4 w-full">
       <div class="flex rounded-xs aspect-[410/332]">
         <img src="/app/assets/imgs/club.jpg" alt="Club" class="object-contain" width="410" height="332">
       </div>
@@ -28,11 +28,11 @@
   <section class="flex flex-col w-full">
     <div class="flex items-center gap-6">
       <span class="bg-primary h-1 rounded-full w-full"></span>
-      <p class="text-5xl text-primary font-black text-nowrap uppercase">
+      <p class="text-3xl md:text-5xl text-primary font-black text-nowrap uppercase">
         Instalaciones
       </p>
     </div>
-    <article class="flex gap-6 mt-4 w-full">
+    <article class="flex flex-col md:flex-row gap-6 mt-4 w-full">
       <div class="flex rounded-xs aspect-[410/231]">
         <img src="/app/assets/imgs/instalaciones.png" alt="Instalaciones" class="object-contain" width="410" height="231">
       </div>

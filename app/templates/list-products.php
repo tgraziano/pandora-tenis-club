@@ -29,7 +29,7 @@ $totalPage = $response["totalPages"];
                     <p class="font-regular text-base w-full">
                         <?= $product['description'] ?>
                     </p>
-                    <div class="flex items-center justify-between mt-auto w-full">
+                    <div class="flex items-center justify-between flex-wrap mt-auto w-full">
                         <p class="text-primary text-2xl font-bold w-fit">
                             $ <?= formatPrice($product['price']) ?>
                         </p>
@@ -42,13 +42,15 @@ $totalPage = $response["totalPages"];
             <?php endforeach ?>
         </ul>
     <?php endif ?>
-    <?php if ($totalPage > 1) : ?>
-        <ul class="flex items-center justify-center gap-2 w-full">
-            <?php for ($i = 1; $i <= $totalPage; $i++) : ?>
-                <li>
-                    <a href="/?view=home.php&page=<?= $i ?><?= $name ? '&name=' . $name : '' ?><?= $category ? '&category=' . $category : '' ?>" class="flex items-center justify-center p-2 aspect-square h-10 rounded-md outline-2 outline-primary transition-all duration-200 will-change-transform <?= $i == $page ? 'bg-primary text-white' : 'bg-white text-primary hover:scale-105' ?>"><?= $i ?></a>
-                </li>
-            <?php endfor ?>
-        </ul>
-    <?php endif ?>
+    <div class="flex overflow-x-auto w-full">
+        <?php if ($totalPage > 1) : ?>
+            <ul class="flex gap-2 py-2 px-4 mx-auto w-fit">
+                <?php for ($i = 1; $i <= $totalPage; $i++) : ?>
+                    <li>
+                        <a href="/?view=home.php&page=<?= $i ?><?= $name ? '&name=' . $name : '' ?><?= $category ? '&category=' . $category : '' ?>" class="flex items-center justify-center p-2 aspect-square h-10 rounded-md outline-2 outline-primary transition-all duration-200 will-change-transform <?= $i == $page ? 'bg-primary text-white' : 'bg-white text-primary hover:scale-105' ?>"><?= $i ?></a>
+                    </li>
+                <?php endfor ?>
+            </ul>
+        <?php endif ?>
+    </div>
 </div>

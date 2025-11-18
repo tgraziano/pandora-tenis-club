@@ -20,13 +20,13 @@ $linkStyle = "font-semibold text-lg opacity-80 hover:opacity-100 transition-opac
     </nav>
 </header>
 
-<div class="fixed md:hidden top-0 left-0 z-10 h-screen w-screen">
-    <button type="button" name="btn-menu" class="bg-white rounded-xl fixed top-4 left-4 p-1 shadow-[2px_2px_4px_rgba(0,0,0,.4)]">
+<div class="fixed md:hidden top-0 left-0 z-10 h-screen w-screen pointer-events-none">
+    <button type="button" name="btn-menu" class="bg-white cursor-pointer rounded-xl fixed top-4 left-4 p-1 shadow-[2px_2px_4px_rgba(0,0,0,.4)] pointer-events-auto">
         <img src="/app/assets/svgs/menu.svg" width="30" height="30" alt="Menu">
     </button>
-    <aside id="menu-aside" class="sticky flex flex-col top-0 left-0 h-full w-full bg-white shadow-2xl translate-x-[-100%] transition-transform duration-300">
+    <aside id="menu-aside" class="sticky flex flex-col top-0 left-0 h-full w-full bg-white shadow-2xl translate-x-[-100%] transition-transform duration-300 pointer-events-auto">
         <div class="p-4 w-full">
-            <button type="button" name="btn-close-menu" class="bg-white rounded-xl p-1 shadow-[2px_2px_4px_rgba(0,0,0,.4)]">
+            <button type="button" name="btn-close-menu" class="bg-white cursor-pointer rounded-xl p-1 shadow-[2px_2px_4px_rgba(0,0,0,.4)]">
                 <img src="/app/assets/svgs/close.svg" width="30" height="30" alt="Close">
             </button>
         </div>

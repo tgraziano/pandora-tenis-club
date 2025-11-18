@@ -3,8 +3,8 @@ $category = $_GET['category'] ?? "";
 $name = $_GET['name'] ?? "";
 ?>
 
-<form id="form-products" action="/app/actions/filter-products.php" method="post" class="flex items-center justify-center gap-10 w-full">
-    <div class="flex items-center justify-center gap-2 w-fit">
+<form id="form-products" action="/app/actions/filter-products.php" method="post" class="flex flex-wrap items-center justify-center gap-10 w-full">
+    <div class="flex flex-wrap items-center justify-center gap-2 w-fit">
         <label class="bg-white cursor-pointer duration-200 transition-all shadow-[1px_1px_4px_rgba(0,0,0,0.4)] font-semibold rounded-full px-4 py-2">
             <input class="hidden" type="radio" name="category" value="" <?= $category == "" ? "checked" : "" ?> />
             <span>Todos</span>
