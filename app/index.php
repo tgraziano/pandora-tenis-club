@@ -21,7 +21,14 @@ $view = $_GET['view'] ?? 'home.php';
 
 <body class="bg-gray-100 font-poppins flex flex-col min-h-screen w-full">
   <?php include 'templates/header.php'; ?>
-  <?php include 'views/' . $view; ?>
+  <?php
+  try {
+    include 'views/' . $view;
+  } catch (Exception $e) {
+    echo "<script>window.location.href = '/app/?view=error.php';</script>";
+    exit();
+  }
+  ?>
   <?php include 'templates/footer.php'; ?>
   <style type="text/tailwindcss">
     @theme {

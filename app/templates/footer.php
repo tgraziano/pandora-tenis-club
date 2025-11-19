@@ -14,16 +14,16 @@
             <p class="font-bold text-lg">Enlaces</p>
             <ul class="flex flex-col gap-2 text-md text-gray-600">
                 <li>
-                    <a href="/?view=reserva.php" class="hover:text-black duration-200 transition-colors">Reservar cancha</a>
+                    <a href="/app/?view=reserva.php" class="hover:text-black duration-200 transition-colors">Reservar cancha</a>
                 </li>
                 <li>
-                    <a href="/?view=home.php&page=1" class="hover:text-black duration-200 transition-colors">Tienda</a>
+                    <a href="/app/?view=home.php&page=1" class="hover:text-black duration-200 transition-colors">Tienda</a>
                 </li>
                 <li>
-                    <a href="/?view=nosotros.php" class="hover:text-black duration-200 transition-colors">Nosotros</a>
+                    <a href="/app/?view=nosotros.php" class="hover:text-black duration-200 transition-colors">Nosotros</a>
                 </li>
                 <li>
-                    <a href="/?view=contacto.php" class="hover:text-black duration-200 transition-colors">Contacto</a>
+                    <a href="/app/?view=contacto.php" class="hover:text-black duration-200 transition-colors">Contacto</a>
                 </li>
             </ul>
         </div>

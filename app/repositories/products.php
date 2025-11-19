@@ -39,5 +39,3 @@ class Products
         return array("products" => $result, "totalPages" => ceil($totalPages / $limit));
     }
 }
-
-?>

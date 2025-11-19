@@ -12,9 +12,9 @@ $success = $msg == "true";
     <?php
     if ($error) {
     ?>
-    <div id="message-alert" class="bg-red-700 border-4 border-red-950 rounded-md py-2 px-4 w-full">
-        <p class="text-white font-medium text-lg"><?= $error ?></p>
-    </div>
+        <div id="message-alert" class="bg-red-700 border-4 border-red-950 rounded-md py-2 px-4 w-full">
+            <p class="text-white font-medium text-lg"><?= $error ?></p>
+        </div>
     <?php
     }
     ?>
@@ -22,9 +22,9 @@ $success = $msg == "true";
     <?php
     if ($success) {
     ?>
-    <div id="message-alert" class="bg-green-600 border-4 border-green-800 rounded-md py-2 px-4 w-full">
-        <p class="text-white font-medium text-lg">El mensaje se envio correctamente</p>
-    </div>
+        <div id="message-alert" class="bg-green-600 border-4 border-green-800 rounded-md py-2 px-4 w-full">
+            <p class="text-white font-medium text-lg">El mensaje se envio correctamente</p>
+        </div>
     <?php
     }
     ?>

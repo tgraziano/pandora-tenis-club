@@ -36,7 +36,7 @@ $linkStyle = "font-semibold text-lg opacity-80 hover:opacity-100 transition-opac
                 Club Pandora
             </a>
         </div>
-            
+
         <nav id="header-nav-mobile" class="flex flex-col items-center justify-evenly gap-4 text-black h-full">
             <?php foreach ($currentPath as $path => $name) { ?>
                 <a href="<?= $path ?>" class="<?= $linkStyle ?>"><?= $name ?></a>
@@ -64,7 +64,7 @@ $linkStyle = "font-semibold text-lg opacity-80 hover:opacity-100 transition-opac
 
     /* Nav Links Mobile */
     const linksMobile = document.querySelectorAll('#header-nav-mobile a');
-    
+
     linksMobile.forEach(link => {
         const path = link.getAttribute("href");
         if (path.includes(view) || path.includes("home.php") && !view.length) {

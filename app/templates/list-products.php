@@ -7,9 +7,13 @@ $name = $_GET['name'] ?? "";
 $category = $_GET['category'] ?? "";
 
 $productsRepository = new Products();
-$response = $productsRepository->search($page > 0 ? $page : 1, $name, $category);
-$products = $response["products"];
-$totalPage = $response["totalPages"];
+$page     = isset($_GET['page']) ? max(1, intval($_GET['page'])) : 1;
+$name     = $_GET['name'] ?? "";
+$category = $_GET['category'] ?? "";
+$productsRepository = new Products();
+$response = $productsRepository->search($page, $name, $category);
+$products   = $response["products"];
+$totalPage  = $response["totalPages"];
 ?>
 
 <div class="flex flex-col gap-6 w-full">
@@ -47,7 +51,7 @@ $totalPage = $response["totalPages"];
             <ul class="flex gap-2 py-2 px-4 mx-auto w-fit">
                 <?php for ($i = 1; $i <= $totalPage; $i++) : ?>
                     <li>
-                        <a href="/?view=home.php&page=<?= $i ?><?= $name ? '&name=' . $name : '' ?><?= $category ? '&category=' . $category : '' ?>" class="flex items-center justify-center p-2 aspect-square h-10 rounded-md outline-2 outline-primary transition-all duration-200 will-change-transform <?= $i == $page ? 'bg-primary text-white' : 'bg-white text-primary hover:scale-105' ?>"><?= $i ?></a>
+                        <a href="/app/?view=home.php&page=<?= $i ?><?= $name ? '&name=' . $name : '' ?><?= $category ? '&category=' . $category : '' ?>" class="flex items-center justify-center p-2 aspect-square h-10 rounded-md outline-2 outline-primary transition-all duration-200 will-change-transform <?= $i == $page ? 'bg-primary text-white' : 'bg-white text-primary hover:scale-105' ?>"><?= $i ?></a>
                     </li>
                 <?php endfor ?>
             </ul>

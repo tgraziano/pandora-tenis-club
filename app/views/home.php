@@ -41,7 +41,7 @@
             <h2 class="font-bold text-4xl">Nuestra tienda</h2>
             <p class="font-medium text-xl text-pretty text-gray-700">Equípate con lo mejor para triunfar en la cancha.</p>
         </div>
-        <?php include 'templates/list-products.php'; ?>
+        <?php include 'templates/list-products.php' ?>
     </section>
 </main>
 

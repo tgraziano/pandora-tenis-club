@@ -12,7 +12,7 @@
       </div>
       <div class="flex flex-col gap-6 h-full w-full">
         <p class="w-full h-fit text-pretty text-xl font-regular text-primary">
-          El Club Atlético Pandora nació con el propósito de preparar y acompañar a futuros talentos en los deportes de raqueta. <br/>
+          El Club Atlético Pandora nació con el propósito de preparar y acompañar a futuros talentos en los deportes de raqueta. <br />
           Contamos con profesores de primera línea y un ambiente pensado para todas las edades y niveles, donde cada jugador puede crecer, divertirse y superarse.
         </p>
         <p class="w-full h-fit text-pretty text-xl font-regular text-primary">
