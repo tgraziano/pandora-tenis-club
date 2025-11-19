@@ -12,7 +12,7 @@ class Products
 
     public function search($page, $name, $category)
     {
-        $limit = 6;
+        $limit = 8;
         $offset = ($page - 1) * $limit;
         $this->database->connect();
         $query = "SELECT cover, name, description, price FROM products";

@@ -10,11 +10,8 @@ $messagesRepository = new Messages();
 try {
   $messagesRepository->insertOne($name, $email, $subject, $message);
   header("Location: /app/?view=contacto.php&msg=true");
-  exit();
 } catch (Exception $e) {
-  echo $e->getMessage();
-  header("Location: /app/?view=contacto.php&error=Hubo un error");
-  exit();
+  header("Location: /app/?view=contacto.php&error=No pudimos enviar el mensaje, vuelva a intentarlo más tarde");
 }
 
-?>
+exit();

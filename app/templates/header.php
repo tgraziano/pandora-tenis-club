@@ -1,7 +1,7 @@
 <?php
 $currentPath = [
     "/app/?view=home.php" => "Inicio",
-    "/app/?view=reserva.php" => "Reserva",
+    "/app/?view=booking.php" => "Reserva",
     "/app/?view=nosotros.php" => "Nosotros",
     "/app/?view=contacto.php" => "Contacto"
 ];
@@ -9,7 +9,7 @@ $linkStyle = "font-semibold text-lg opacity-80 hover:opacity-100 transition-opac
 ?>
 
 <header class="bg-white shadow-sm hidden items-center justify-between md:flex px-[20px] md:px-[40px] lg:px-[190px] py-2.5 h-fit w-full">
-    <a href="/app" class="flex items-center gap-2 font-semibold text-primary text-xl">
+    <a href="/app/?view=home.php" class="flex items-center gap-2 font-semibold text-primary text-xl">
         <img src="/app/assets/imgs/logo.png" loading="eager" decoding="sync" width="50" height="59" alt="Pandora Logo">
         Club Pandora
     </a>

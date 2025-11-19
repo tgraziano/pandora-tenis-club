@@ -13,5 +13,3 @@ if ($name) {
 }
 header("Location: /app$searchParams");
 exit();
-
-?>

@@ -30,19 +30,19 @@ $success = $msg == "true";
     ?>
     <div class="flex flex-col gap-2 w-full">
         <label for="name" class="regular text-lg">Nombre</label>
-        <input id="name" type="text" name="name" placeholder="Lionel Messi" required class="outline outline-gray-300 focus:outline-2 focus:outline-gray-950 rounded-sm py-2 px-4 placeholder:font-medium placeholder:text-gray-400">
+        <input id="name" type="text" name="name" placeholder="Lionel Messi" required class="outline outline-gray-300 focus:outline-2 focus:outline-gray-950 rounded-sm py-2 px-4 placeholder:font-medium placeholder:text-gray-400" minlength="3" maxlength="50">
     </div>
     <div class="flex flex-col gap-2 w-full">
         <label for="email" class="regular text-lg">Email</label>
-        <input id="email" type="email" name="email" placeholder="example@correo.com" required class="outline outline-gray-300 focus:outline-2 focus:outline-gray-950 rounded-sm py-2 px-4 placeholder:font-medium placeholder:text-gray-400">
+        <input id="email" type="email" name="email" placeholder="example@correo.com" required class="outline outline-gray-300 focus:outline-2 focus:outline-gray-950 rounded-sm py-2 px-4 placeholder:font-medium placeholder:text-gray-400" maxlength="255">
     </div>
     <div class="flex flex-col gap-2 w-full">
         <label for="subject" class="regular text-lg">Asunto</label>
-        <input id="subject" type="text" name="subject" placeholder="¿Por qué nos contacta?" required class="outline outline-gray-300 focus:outline-2 focus:outline-gray-950 rounded-sm py-2 px-4 placeholder:font-medium placeholder:text-gray-400">
+        <input id="subject" type="text" name="subject" placeholder="¿Por qué nos contacta?" required class="outline outline-gray-300 focus:outline-2 focus:outline-gray-950 rounded-sm py-2 px-4 placeholder:font-medium placeholder:text-gray-400" minlength="3" maxlength="15">
     </div>
     <div class="flex flex-col gap-2 w-full">
         <label for="message" class="regular text-lg">Mensaje</label>
-        <textarea id="message" name="message" placeholder="Describa su duda o problema" required class="outline outline-gray-300 focus:outline-2 focus:outline-gray-950 rounded-sm py-2 px-4 placeholder:font-medium placeholder:text-gray-400 min-h-24" style="resize: none;"></textarea>
+        <textarea id="message" name="message" placeholder="Describa su duda o problema" required class="outline outline-gray-300 focus:outline-2 focus:outline-gray-950 rounded-sm py-2 px-4 placeholder:font-medium placeholder:text-gray-400 min-h-24" maxlength="120" minlength="3" style="resize: none;"></textarea>
     </div>
     <button type="submit" class="bg-primary text-white font-semibold py-2 px-4 rounded-sm hover:scale-105 transition-transform duration-300 will-change-transform w-full">Enviar</button>
 </form>

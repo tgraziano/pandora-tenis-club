@@ -14,7 +14,7 @@
             <p class="font-bold text-lg">Enlaces</p>
             <ul class="flex flex-col gap-2 text-md text-gray-600">
                 <li>
-                    <a href="/app/?view=reserva.php" class="hover:text-black duration-200 transition-colors">Reservar cancha</a>
+                    <a href="/app/?view=booking.php" class="hover:text-black duration-200 transition-colors">Reservar cancha</a>
                 </li>
                 <li>
                     <a href="/app/?view=home.php&page=1" class="hover:text-black duration-200 transition-colors">Tienda</a>
@@ -42,13 +42,37 @@
             <p class="font-bold text-lg">Síguenos</p>
             <ul class="flex items-center gap-2 text-md text-gray-600">
                 <li>
-                    <img src="/app/assets/svgs/facebook.svg" loading="lazy" decoding="async" width="28" height="28" alt="Facebook">
+                    <a href="https://www.facebook.com" class="cursor-pointer" target="_blank" rel="noopener noreferrer">
+                        <img src="/app/assets/svgs/facebook.svg" loading="lazy" decoding="async" width="28" height="28" alt="Facebook">
+                    </a>
                 </li>
                 <li>
-                    <img src="/app/assets/svgs/instagram.svg" loading="lazy" decoding="async" width="30" height="30" alt="Instagram">
+                    <a href="https://www.instagram.com" class="cursor-pointer" target="_blank" rel="noopener noreferrer">
+                        <img src="/app/assets/svgs/instagram.svg" loading="lazy" decoding="async" width="30" height="30" alt="Instagram">
+                    </a>
                 </li>
                 <li>
-                    <img src="/app/assets/svgs/x-social.svg" loading="lazy" decoding="async" width="24" height="24" alt="Twitter">
+                    <a href="https://www.twitter.com" class="cursor-pointer" target="_blank" rel="noopener noreferrer">
+                        <img src="/app/assets/svgs/x-social.svg" loading="lazy" decoding="async" width="24" height="24" alt="Twitter">
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="flex flex-col gap-4 w-fit">
+            <p class="font-bold text-lg">Contacto</p>
+            <ul class="flex flex-col gap-4 w-full">
+                <li class="flex items-center gap-2">
+                    <img src="/app/assets/svgs/whatsapp.svg" class="w-[22px] h-[22px]" loading="eager" decoding="sync" width="22" height="22" alt="Whatsapp Icon" />
+                    + 54 11 7777 7777
+                </li>
+                <li class="flex items-center gap-2">
+                    <img src="/app/assets/svgs/location.svg" class="w-[24px] h-[24px]" loading="eager" decoding="sync" width="24" height="24" alt="Location Icon" />
+                    Calle Falsa 1234, Provincia
+                </li>
+                <li class="flex items-center gap-2">
+                    <img src="/app/assets/svgs/correo.svg" class="w-[24px] h-[24px]" loading="eager" decoding="sync" width="24" height="24" alt="Location Icon" />
+                    contacto@pandora.com
                 </li>
             </ul>
         </div>
