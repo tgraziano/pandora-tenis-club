@@ -17,6 +17,10 @@ Correr el apache de xampp e ingresar a <a href="http://localhost/app">http://loc
 
 Una vez levantado ingresar a phpMyAdmin en <a href="http://localhost/phpmyadmin">http://localhost/phpmyadmin</a>
 
+Importar el archivo `schema.sql` de la carpeta `database` de este proyecto.
+
+Luego impoortar el archivo `seel.sql` de la carpeta `database` de este proyecto.
+
 ## Diseño de la web
 [Figma](https://www.figma.com/design/cajz06OLDe2FE3qQKLjtKu/Club-Pandora?node-id=0-1&p=f)
 
