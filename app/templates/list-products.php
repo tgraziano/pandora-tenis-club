@@ -1,15 +1,12 @@
 <?php
+require_once "utils/validate.php";
 require_once "repositories/products.php";
 require_once "utils/pricing.php";
 
-$page = $_GET['page'] ?? 1;
-$name = $_GET['name'] ?? "";
-$category = $_GET['category'] ?? "";
+$page = sanitizeInput($_GET['page'] ?? 1);
+$name = sanitizeInput($_GET['name'] ?? "");
+$category = sanitizeInput($_GET['category'] ?? "");
 
-$productsRepository = new Products();
-$page     = isset($_GET['page']) ? max(1, intval($_GET['page'])) : 1;
-$name     = $_GET['name'] ?? "";
-$category = $_GET['category'] ?? "";
 $productsRepository = new Products();
 $response = $productsRepository->search($page, $name, $category);
 $products   = $response["products"];

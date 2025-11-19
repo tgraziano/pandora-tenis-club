@@ -12,13 +12,9 @@ class Messages
 
   public function insertOne($name, $email, $subject, $message)
   {
-    try {
-      $this->database->connect();
-      $query = "INSERT INTO messages (name, email, subject, message) VALUES (' . $name . ', ' . $email . ', ' . $subject . ', ' . $message . ')";
-      $this->database->query($query);
-      $this->database->disconnect();
-    } catch (Exception $e) {
-      throw new Exception("Error al intentar insertar el mensaje: " . $e->getMessage());
-    }
+    $this->database->connect();
+    $query = "INSERT INTO messages (name, email, subject, message) VALUES (' . $name . ', ' . $email . ', ' . $subject . ', ' . $message . ')";
+    $this->database->query($query);
+    $this->database->disconnect();
   }
 }

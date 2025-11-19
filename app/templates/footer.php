@@ -14,9 +14,6 @@
             <p class="font-bold text-lg">Enlaces</p>
             <ul class="flex flex-col gap-2 text-md text-gray-600">
                 <li>
-                    <a href="/app/?view=booking.php" class="hover:text-black duration-200 transition-colors">Reservar cancha</a>
-                </li>
-                <li>
                     <a href="/app/?view=home.php&page=1" class="hover:text-black duration-200 transition-colors">Tienda</a>
                 </li>
                 <li>

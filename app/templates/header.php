@@ -1,7 +1,6 @@
 <?php
 $currentPath = [
     "/app/?view=home.php" => "Inicio",
-    "/app/?view=booking.php" => "Reserva",
     "/app/?view=nosotros.php" => "Nosotros",
     "/app/?view=contacto.php" => "Contacto"
 ];
