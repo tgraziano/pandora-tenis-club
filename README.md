@@ -36,10 +36,6 @@ Una vez levantado ingresar a phpMyAdmin en <a href="http://localhost/phpmyadmin"
 
 <img src="./docs/nosotros.png" alt="Nosotros">
 
-### Reservas
-
-<img src="./docs/reserva.png" alt="Reservas">
-
 ### Contacto
 
 <img src="./docs/contacto.png" alt="Contacto">
